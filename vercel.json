@@ -2,13 +2,13 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/main.go",
+      "src": "main.go",
       "use": "@vercel/go"
     }
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
+      "src": "/api/v1/cbos(.*)",
       "dest": "/api/main.go"
     }
   ]
