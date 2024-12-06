@@ -1,7 +1,7 @@
 package dataprovider
 
 import (
-	"cbo-api/domain"
+	"cbo-api/api/domain"
 	"encoding/json"
 	"fmt"
 	"io"

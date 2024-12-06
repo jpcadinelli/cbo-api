@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"cbo-api/dataprovider"
-	"cbo-api/domain"
+	"cbo-api/api/dataprovider"
+	"cbo-api/api/domain"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strings"

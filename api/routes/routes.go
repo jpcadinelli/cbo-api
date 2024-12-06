@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"cbo-api/controller"
+	"cbo-api/api/controller"
 	"github.com/gin-gonic/gin"
 )
 
